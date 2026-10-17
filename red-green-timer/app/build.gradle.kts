@@ -31,3 +31,15 @@ android {
         jvmTarget = "17"
     }
 }
+
+android {
+    packaging {
+        resources {
+            excludes += setOf("kotlin/**", "META-INF/**", "DebugProbesKt.bin", "kotlin-tooling-metadata.json")
+        }
+    }
+    dependenciesInfo {
+        includeInApk = false
+        includeInBundle = false
+    }
+}
