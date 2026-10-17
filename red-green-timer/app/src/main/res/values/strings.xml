@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Red Green Timer</string>
+    <string name="choose_time">How long?</string>
+    <string name="minutes_short">min</string>
+    <string name="start">Start</string>
+    <string name="sound">Sound when done</string>
+    <string name="vibrate">Vibrate when done</string>
+    <string name="show_numbers">Show numbers</string>
+    <string name="wait">Wait…</string>
+    <string name="done">All done!</string>
+    <string name="hold_to_stop">Grown-ups: press and hold to stop</string>
+    <string name="tap_to_reset">Tap to start again</string>
+</resources>
